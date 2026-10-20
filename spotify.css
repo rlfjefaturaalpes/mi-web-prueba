@@ -8,3 +8,5 @@
 #sp-playlists{display:grid;grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:calc((100% - 21px)/4);overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:5px;scrollbar-width:thin;scrollbar-color:#444 transparent}#sp-playlists li{scroll-snap-align:start}#sp-playlists .sp-pin{top:auto;bottom:0;right:0;width:17px;height:17px;border-radius:5px;background:#1b1b1b}.sp-card-name{padding-right:10px}
 
 #sp-here.sp-device-active{color:#1ed760}
+
+#sp-recent-items li[data-type="artist"] img,#sp-recent-items li[data-type="artist"] button{border-radius:50%}
