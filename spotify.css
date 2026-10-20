@@ -50,3 +50,11 @@
 .sp-marquee-song{font-weight:700}.sp-marquee-artist{font-weight:400}
 
 #sp-login{margin-bottom:16px}
+
+/* Volume styling shared with DAC; painting never changes playback volume. */
+.spotify-widget #sp-volume{appearance:none!important;-webkit-appearance:none!important;width:62px!important;height:18px!important;min-height:0!important;padding:0!important;margin:0!important;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important;accent-color:#1ed760!important;cursor:pointer;color:#1ed760!important}
+.spotify-widget #sp-volume::-webkit-slider-runnable-track{height:4px!important;border:0!important;border-radius:4px!important;background:linear-gradient(to right,#1ed760 0%,#1ed760 var(--sp-volume,0%),#535353 var(--sp-volume,0%),#535353 100%)!important;box-shadow:none!important}
+.spotify-widget #sp-volume::-webkit-slider-thumb{appearance:none!important;-webkit-appearance:none!important;width:12px!important;height:12px!important;margin-top:-4px!important;border:0!important;border-radius:50%!important;background:#1ed760!important;box-shadow:none!important}
+.spotify-widget #sp-volume::-moz-range-track{height:4px!important;border:0!important;border-radius:4px!important;background:#535353!important;box-shadow:none!important}
+.spotify-widget #sp-volume::-moz-range-progress{height:4px!important;background:#1ed760!important}
+.spotify-widget #sp-volume::-moz-range-thumb{width:12px!important;height:12px!important;border:0!important;border-radius:50%!important;background:#1ed760!important;box-shadow:none!important}
