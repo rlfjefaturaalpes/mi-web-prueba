@@ -48,3 +48,5 @@
 .spotify-widget.sp-idle .sp-compact{width:190px;gap:7px}.spotify-widget.sp-idle #sp-toggle{max-width:none;min-width:0;flex:1;opacity:1;transform:none;pointer-events:auto;padding:0}.spotify-widget.sp-idle #sp-toggle>span:last-child{display:none}.spotify-widget.sp-idle .sp-mini-meta{min-height:26px}.spotify-widget.sp-idle #sp-mini-name{font-size:10px}.spotify-widget.sp-idle .sp-marquee{animation-play-state:running}.spotify-widget.sp-idle .sp-compact:has(#sp-mini[hidden]){width:110px}
 
 .sp-marquee-song{font-weight:700}.sp-marquee-artist{font-weight:400}
+
+#sp-login{margin-bottom:16px}
