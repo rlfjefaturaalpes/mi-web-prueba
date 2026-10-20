@@ -21,3 +21,5 @@
 
 /* Keep play/pause anchored while the bar expands under the pointer. */
 .sp-compact{position:relative;padding-right:42px}#sp-mini-play{position:absolute;right:9px;top:50%;transform:translateY(-50%);margin:0}.spotify-widget.sp-idle .sp-compact{padding-right:36px}.spotify-widget.sp-idle #sp-mini-play{right:9px}#sp-mini{min-width:0}.spotify-widget.sp-idle #sp-mini{width:0;flex-basis:0}.sp-compact #sp-toggle{padding-right:0}.spotify-widget.sp-idle .sp-compact:has(#sp-mini[hidden]){padding-right:9px}
+
+#sp-results .sp-result-row{flex-wrap:wrap}#sp-results .sp-result-error{flex:0 0 100%;white-space:normal;color:#ffb7ad;font-size:10px;padding:5px 0}#sp-results button[aria-busy=true]{color:#1ed760;background:#28382c}
