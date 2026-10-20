@@ -43,3 +43,6 @@
 
 /* Song and artist travel together in one horizontal strip. */
 #sp-mini-artist{display:none!important}.sp-mini-meta{display:flex;align-items:center;min-height:28px}#sp-mini-name{font-size:12px;line-height:20px}
+
+/* Compact bar keeps a shorter, moving song/artist strip. */
+.spotify-widget.sp-idle .sp-compact{width:190px;gap:7px}.spotify-widget.sp-idle #sp-toggle{max-width:none;min-width:0;flex:1;opacity:1;transform:none;pointer-events:auto;padding:0}.spotify-widget.sp-idle #sp-toggle>span:last-child{display:none}.spotify-widget.sp-idle .sp-mini-meta{min-height:26px}.spotify-widget.sp-idle #sp-mini-name{font-size:10px}.spotify-widget.sp-idle .sp-marquee{animation-play-state:running}.spotify-widget.sp-idle .sp-compact:has(#sp-mini[hidden]){width:110px}
