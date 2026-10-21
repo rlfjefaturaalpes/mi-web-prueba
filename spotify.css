@@ -147,4 +147,4 @@
 #spotify-portfolio{display:contents}
 #spotify-portfolio .spotify-widget{position:fixed;top:14px;right:4%;left:auto;bottom:auto;z-index:90}
 @media(max-width:560px){#spotify-portfolio .spotify-widget{right:3%}}
-
+#spotify-portfolio .spotify-widget #sp-panel .sp-search-area{z-index:20}
