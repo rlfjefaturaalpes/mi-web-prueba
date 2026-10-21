@@ -148,3 +148,5 @@
 #spotify-portfolio .spotify-widget{position:fixed;top:14px;right:4%;left:auto;bottom:auto;z-index:90}
 @media(max-width:560px){#spotify-portfolio .spotify-widget{right:3%}}
 #spotify-portfolio .spotify-widget #sp-panel .sp-search-area{z-index:20}
+#spotify-portfolio .spotify-widget #sp-search-close{display:grid;place-items:center;flex:0 0 26px;width:26px;height:26px;padding:0;margin-left:3px;border-radius:50%;color:#fff;font-size:20px;line-height:1;background:transparent}
+#spotify-portfolio .spotify-widget #sp-track[role="button"]{cursor:pointer}#spotify-portfolio .spotify-widget #sp-track[role="button"]:focus-visible{outline:2px solid #1ed760;outline-offset:3px}
